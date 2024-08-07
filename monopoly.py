@@ -1,7 +1,7 @@
 import random
 from tqdm import tqdm
-import matplotlib.pyplot as plt
 import pandas as pd
+import os
 
 #      gy  _g    _g@@g_  @_    *y   _@@@g_ q@Nq_   _g@@g_ qg    *_   _g     
 #      @@  @@L  g#`   3g @Mg_   @ _@"   ^@ [F  @L_@F    @ JE     Mg _@`     
@@ -79,16 +79,23 @@ def dice_roll():
         roll_doubles = True
     return roll_total, roll_doubles
 
-def save_board(filename, monopoly_board):
+
+def save_board(filename, colname, monopoly_board):
     data = []
 
     for space in monopoly_board:
         name, frequency = space
-        data.append({'Space': name, 'Frequency': frequency})
+        data.append({'Space': name, colname: frequency})
 
-    df = pd.DataFrame(data, columns=['Space', 'Frequency'])
+    new_df = pd.DataFrame(data, columns=['Space', colname])
     
-    df.to_csv(filename, index=False)
+    if os.path.exists(filename):
+        existing_df = pd.read_csv(filename)
+        combined_df = pd.merge(existing_df, new_df, on='Space', how='outer', suffixes=('', '_new'))
+    else:
+        combined_df = new_df
+
+    combined_df.to_csv(filename, index=False)
 
 def take_turn(player_pos, total_turns, in_jail, consecutive_doubles, jail_turns):
     total_turns += 1
@@ -189,12 +196,18 @@ def take_turn(player_pos, total_turns, in_jail, consecutive_doubles, jail_turns)
 
 
 
-for i in tqdm(range(10000000)):
-    player_pos, total_turns, is_double, consecutive_doubles, jail_turns = take_turn(player_pos, total_turns, in_jail, 0, jail_turns)
+for i in tqdm(range(1000000)):
+    for j in range(4): #number of players
+        in_jail = False
+        jail_turns = 0 #default state
+        player_pos = 0 #default state
+        total_turns = 0
+        for k in range(30): # average amount of turns for one game
+            player_pos, total_turns, is_double, consecutive_doubles, jail_turns = take_turn(player_pos, total_turns, in_jail, 0, jail_turns)
     
     
 
-save_board("monopoly.csv", monopoly_board)
+save_board("monopoly.csv", "30turns_4players", monopoly_board)
 print(f"total turns: {total_turns}")
 
 

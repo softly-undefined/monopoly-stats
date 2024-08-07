@@ -1,41 +1,41 @@
-Space,Frequency
-GO,368630
-Mediterranean Avenue,254895
-Community Chest 1,225151
-Baltic Avenue,258875
-Income Tax,278101
-Reading Railroad,353153
-Oriental Avenue,269295
-Chance 1,103203
-Vermont Avenue,276316
-Connecticut Avenue,274001
-Jail/Just Visiting,744582
-St. Charles Place,323187
-Electric Company,311840
-States Avenue,282091
-Virginia Avenue,295585
-Pennsylvania Railroad,347810
-St. James Place,333715
-Community Chest 2,307945
-Tennessee Avenue,351078
-New York Avenue,366929
-Free Parking,345606
-Kentucky Avenue,337857
-Chance 2,125068
-Indiana Avenue,326573
-Illinois Avenue,380152
-B&O Railroad,364846
-Atlantic Avenue,322815
-Ventnor Avenue,319839
-Water Works,335799
-Marvin Gardens,307488
-Go to Jail,0
-Pacific Avenue,318329
-North Carolina Avenue,314507
-Community Chest 3,285338
-Pennsylvania Avenue,297817
-Short Line,290131
-Chance 3,103054
-Park Place,261552
-Luxury Tax,259672
-Boardwalk,314178
+Space,Frequency,30_turns_4_players,30turns_4players
+GO,3680058,42277,4200084
+Mediterranean Avenue,2549386,28298,2829381
+Community Chest 1,2247349,25865,2583946
+Baltic Avenue,2585575,30603,3074121
+Income Tax,2777111,34584,3437279
+Reading Railroad,3542331,43731,4422132
+Oriental Avenue,2694329,35148,3536998
+Chance 1,1034913,14121,1402674
+Vermont Avenue,2769163,36895,3673783
+Connecticut Avenue,2745649,35859,3580894
+Jail/Just Visiting,7442668,90700,9048993
+St. Charles Place,3226992,40671,4081486
+Electric Company,3124002,38973,3898924
+States Avenue,2825525,34702,3466039
+Virginia Avenue,2954297,36427,3635605
+Pennsylvania Railroad,3475452,43108,4330557
+St. James Place,3336919,40942,4100680
+Community Chest 2,3081760,37899,3762519
+Tennessee Avenue,3506517,42707,4268626
+New York Avenue,3668330,44248,4441340
+Free Parking,3449139,41680,4165570
+Kentucky Avenue,3380717,40156,4057107
+Chance 2,1256964,15093,1505185
+Indiana Avenue,3260945,39034,3894868
+Illinois Avenue,3799502,45321,4539299
+B&O Railroad,3660173,43669,4337323
+Atlantic Avenue,3226197,38038,3805415
+Ventnor Avenue,3192574,37528,3751232
+Water Works,3350945,39266,3922777
+Marvin Gardens,3086233,35966,3592405
+Go to Jail,0,0,0
+Pacific Avenue,3195227,36502,3693823
+North Carolina Avenue,3132302,36091,3604961
+Community Chest 3,2844224,32786,3261099
+Pennsylvania Avenue,2978593,34002,3406487
+Short Line,2904941,33047,3304925
+Chance 3,1033418,11827,1171099
+Park Place,2612622,29509,2948717
+Luxury Tax,2602653,29066,2923522
+Boardwalk,3139592,35673,3566759
