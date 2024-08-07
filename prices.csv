@@ -1,0 +1,41 @@
+location,location_type,base_cost,cost_per_house,no_set,set,1,2,3,4,5
+GO,Misc,200,,,,,,,,
+Mediterranean Avenue,Brown,-60,-50,2,4,10,30,90,160,250
+Community Chest 1,Community Chest,,,,,,,,,
+Baltic Avenue,Brown,-60,-50,4,8,20,60,180,320,450
+Income Tax,Fine,-200,,,,,,,,
+Reading Railroad,Railroad,-200,0,25,,25,50,100,200,
+Oriental Avenue,Light Blue,-100,-50,6,12,30,90,270,400,550
+Chance 1,Chance,,,,,,,,,
+Vermont Avenue,Light Blue,-100,-50,6,12,30,90,270,400,550
+Connecticut Avenue,Light Blue,-120,-50,8,16,40,100,300,450,600
+Jail/Just Visiting,Misc,,,,,,,,,
+St. Charles Place,Magenta,-140,-100,10,20,50,150,450,625,750
+Electric Company,Utility,-150,0,28,70,,,,,
+States Avenue,Magenta,-140,-100,10,20,50,150,450,625,750
+Virginia Avenue,Magenta,-160,-100,12,24,60,180,500,700,900
+Pennsylvania Railroad,Railroad,-200,0,25,,25,50,100,200,
+St. James Place,Orange,-180,-100,14,28,70,200,550,750,950
+Community Chest 2,Community Chest,,,,,,,,,
+Tennessee Avenue,Orange,-180,-100,14,28,70,200,550,750,950
+New York Avenue,Orange,-200,-100,16,32,80,220,600,800,1000
+Free Parking,Misc,,,,,,,,,
+Kentucky Avenue,Red,-220,-150,18,36,90,250,700,875,1050
+Chance 2,Chance,,,,,,,,,
+Indiana Avenue,Red,-220,-150,18,36,90,250,700,875,1050
+Illinois Avenue,Red,-240,-150,20,40,100,300,750,925,1100
+B&O Railroad,Railroad,-200,0,25,,25,50,100,200,
+Atlantic Avenue,Yellow,-260,-150,22,44,110,330,800,975,1150
+Ventnor Avenue,Yellow,-260,-150,22,44,110,330,800,975,1150
+Water Works,Utility,-150,0,28,70,,,,,
+Marvin Gardens,Yellow,-280,-150,24,48,120,360,850,1025,1200
+Go to Jail,Misc,,,,,,,,,
+Pacific Avenue,Green,-300,-200,26,52,130,390,900,1100,1275
+North Carolina Avenue,Green,-300,-200,26,52,130,390,900,1100,1275
+Community Chest 3,Community Chest,,,,,,,,,
+Pennsylvania Avenue,Green,-320,-200,28,56,150,450,1000,1200,1400
+Short Line,Railroad,-200,0,25,,25,50,100,200,
+Chance 3,Chance,,,,,,,,,
+Park Place,Blue,-350,-200,35,70,175,500,1100,1300,1500
+Luxury Tax,Fine,-100,,,,,,,,
+Boardwalk,Blue,-400,-200,50,100,200,600,1400,1700,2000
