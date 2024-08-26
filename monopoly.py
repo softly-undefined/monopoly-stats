@@ -193,9 +193,6 @@ def take_turn(player_pos, total_turns, in_jail, consecutive_doubles, jail_turns)
 
     return player_pos, total_turns, is_double, consecutive_doubles, jail_turns
 
-
-
-
 for i in tqdm(range(1000000)):
     for j in range(4): #number of players
         in_jail = False
@@ -204,7 +201,6 @@ for i in tqdm(range(1000000)):
         total_turns = 0
         for k in range(30): # average amount of turns for one game
             player_pos, total_turns, is_double, consecutive_doubles, jail_turns = take_turn(player_pos, total_turns, in_jail, 0, jail_turns)
-    
     
 
 save_board("monopoly.csv", "30turns_4players", monopoly_board)
